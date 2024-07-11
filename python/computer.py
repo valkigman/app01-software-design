@@ -5,10 +5,9 @@ class Computer:
 
     def input_data_from_keyboard(self):
         print("Inputing data from a keyboard...")
-
     def store_data_to_internal_memory(self):
         print("Storing data to internal memory...")
-    
+
     def retrieve_data_from_internal_memory(self):
         print("Retrieving data from internal memory ...")
 
@@ -23,8 +22,6 @@ class Computer:
 
     def connect_to_bluetooth(self):
         print("Connection to Bluetooth...")
-
-
 
 # Computer Object
 computer:Computer = Computer()
